@@ -18,7 +18,14 @@
             left: 'prev,next today',
             center: 'title',
             right: 'dayGridMonth,timeGridWeek,timeGridDay'
-          }
+          },
+    slotLabelFormat: [
+        {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12:false
+        }
+        ]
     });
     calendar.render();
   });
