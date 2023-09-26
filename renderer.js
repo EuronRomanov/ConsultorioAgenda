@@ -13,6 +13,7 @@
         timeZone: 'UTC',
         locale: 'es',
         editable: true,
+        navLinks:true,
         showNonCurrentDates: false,
         headerToolbar: {
             left: 'prev,next today',
